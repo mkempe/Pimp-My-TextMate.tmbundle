@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[➠] Changed $0.</string>
+	<key>name</key>
+	<string>Changed ...</string>
+	<key>scope</key>
+	<string>text.git-commit, text.hg-editor-*.txt</string>
+	<key>tabTrigger</key>
+	<string>changed</string>
+	<key>uuid</key>
+	<string>D5D03EF8-353E-4743-BB23-76CB01C61E6C</string>
+</dict>
+</plist>
