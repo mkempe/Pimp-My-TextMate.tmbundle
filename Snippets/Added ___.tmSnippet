@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>[✚] Added $0.</string>
-	<key>name</key>
-	<string>Added ...</string>
-	<key>scope</key>
-	<string>text.git-commit, text.hg-editor-*.txt</string>
-	<key>tabTrigger</key>
-	<string>added</string>
-	<key>uuid</key>
-	<string>64EB8C60-4B0D-4B9C-802A-B17F4041E401</string>
-</dict>
+  <dict>
+    <key>content</key>
+    <string>[✚] Added $0.</string>
+    <key>name</key>
+    <string>Added ...</string>
+    <key>scope</key>
+    <string>text.git-commit, text.hg-editor-*.txt</string>
+    <key>tabTrigger</key>
+    <string>added</string>
+    <key>uuid</key>
+    <string>64EB8C60-4B0D-4B9C-802A-B17F4041E401</string>
+  </dict>
 </plist>
