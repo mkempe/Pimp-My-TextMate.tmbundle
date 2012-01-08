@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>content</key>
+    <string>[♻] Tidied $0.</string>
+    <key>name</key>
+    <string>Tidied ...</string>
+    <key>scope</key>
+    <string>text.git-commit, text.hg-editor-*.txt</string>
+    <key>tabTrigger</key>
+    <string>tidied</string>
+    <key>uuid</key>
+    <string>15DB4293-18BC-4F51-AC78-B55F50758F1F</string>
+  </dict>
+</plist>
