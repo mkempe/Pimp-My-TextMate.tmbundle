@@ -2,73 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>mainMenu</key>
-  <dict>
-    <key>excludedItems</key>
-    <array>
-      <string>85189D68-06C4-4F4A-8E75-AC2B06DDD920</string>
-    </array>
-    <key>items</key>
-    <array>
-      <string>95DB5DCA-F7A2-4CC0-8299-7AF07D4BF7CC</string>
-    </array>
-    <key>submenus</key>
-    <dict>
-      <key>85189D68-06C4-4F4A-8E75-AC2B06DDD920</key>
-      <dict>
-        <key>items</key>
-        <array/>
-        <key>name</key>
-        <string>Commit messages</string>
-      </dict>
-      <key>95DB5DCA-F7A2-4CC0-8299-7AF07D4BF7CC</key>
-      <dict>
-        <key>items</key>
-        <array>
-          <string>11C400E1-BCC4-43DC-BD90-3ED2F9EB14E9</string>
-          <string>762D1FE7-8A11-4173-B070-418750EB8D68</string>
-          <string>64EB8C60-4B0D-4B9C-802A-B17F4041E401</string>
-          <string>A6B7822A-EBC1-4991-8070-7A15CFC0AE7B</string>
-          <string>D5D03EF8-353E-4743-BB23-76CB01C61E6C</string>
-          <string>FF6AA3B0-5F35-4A2C-93C6-6B5D9897587B</string>
-          <string>00CA1C68-96A3-4A49-BE13-0CA1B925C602</string>
-          <string>18C7ED47-E8D8-4283-8CFF-4CBC3F46623F</string>
-          <string>4485736C-A871-4590-9667-F5B1FC6CD5F3</string>
-          <string>B37AE108-6AAF-44E7-85C9-5DC625AFC462</string>
-          <string>BF093D6E-9935-4CA8-9630-A7B079942723</string>
-          <string>15DB4293-18BC-4F51-AC78-B55F50758F1F</string>
-          <string>F0BFD06E-B21E-443E-8CFA-0522AD683FD2</string>
-          <string>A430964A-AF93-49EE-ABFE-E5E476930BBC</string>
-          <string>A7D1642A-0A8E-4B8C-B107-2E7593C7D125</string>
-          <string>2C4DA168-B533-45DE-A596-E11800760D47</string>
-        </array>
-        <key>name</key>
-        <string>Commit messages</string>
-      </dict>
-    </dict>
-  </dict>
+  <key>contactEmailRot13</key>
+  <string>ebbg@oernxvat-yvzvgf.pbz</string>
+  <key>contactName</key>
+  <string>Maik Kempe</string>
+  <key>description</key>
+  <string>My personal enhancements for TextMate.</string>
   <key>name</key>
   <string>Pimp My TextMate</string>
-  <key>ordering</key>
-  <array>
-    <string>762D1FE7-8A11-4173-B070-418750EB8D68</string>
-    <string>64EB8C60-4B0D-4B9C-802A-B17F4041E401</string>
-    <string>11C400E1-BCC4-43DC-BD90-3ED2F9EB14E9</string>
-    <string>D5D03EF8-353E-4743-BB23-76CB01C61E6C</string>
-    <string>FF6AA3B0-5F35-4A2C-93C6-6B5D9897587B</string>
-    <string>A6B7822A-EBC1-4991-8070-7A15CFC0AE7B</string>
-    <string>00CA1C68-96A3-4A49-BE13-0CA1B925C602</string>
-    <string>18C7ED47-E8D8-4283-8CFF-4CBC3F46623F</string>
-    <string>4485736C-A871-4590-9667-F5B1FC6CD5F3</string>
-    <string>B37AE108-6AAF-44E7-85C9-5DC625AFC462</string>
-    <string>BF093D6E-9935-4CA8-9630-A7B079942723</string>
-    <string>15DB4293-18BC-4F51-AC78-B55F50758F1F</string>
-    <string>F0BFD06E-B21E-443E-8CFA-0522AD683FD2</string>
-    <string>A430964A-AF93-49EE-ABFE-E5E476930BBC</string>
-    <string>A7D1642A-0A8E-4B8C-B107-2E7593C7D125</string>
-    <string>2C4DA168-B533-45DE-A596-E11800760D47</string>
-  </array>
   <key>uuid</key>
-  <string>192BC7E3-A7C8-4244-AE93-070390BA613B</string>
+  <string>DAA8161C-0CC1-49E9-BA2D-EA7BCAD52E79</string>
 </dict>
 </plist>
