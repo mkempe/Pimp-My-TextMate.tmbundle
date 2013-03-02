@@ -1,4 +1,13 @@
-PIMP-MY-TEXTMATE.TMBUNDLE
-=========================
+[PIMP MY TEXTMATE.TMBUNDLE](https://github.com/mkempe/Pimp-My-TextMate.tmbundle "Pimp My TextMate.tmbundle")
+============================================================================================================
 
-My personal enhancements for [TextMate](http://macromates.com "TextMate").
+Personal [TextMate](http://macromates.com "TextMate") bundle.
+
+License
+-------
+
+MIT License
+
+“Pimp My TextMate.tmbundle” is released under the MIT license.
+
+See “COPYING”.
