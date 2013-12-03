@@ -2,17 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>author</key>
-    <string>David Heinemeier Hansson</string>
     <key>name</key>
-    <string>All Hallow's Eve</string>
+    <string>Vibrant Ink</string>
     <key>settings</key>
     <array>
       <dict>
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#131313</string>
+          <string>#000000</string>
           <key>caret</key>
           <string>#FFFFFF</string>
           <key>foreground</key>
@@ -22,7 +20,7 @@
           <key>lineHighlight</key>
           <string>#333300</string>
           <key>selection</key>
-          <string>#73597EE0</string>
+          <string>#35493CE0</string>
         </dict>
       </dict>
       <dict>
@@ -32,9 +30,54 @@
         <string>text</string>
         <key>settings</key>
         <dict>
+          <key>background</key>
+          <string>#0F0F0F</string>
           <key>foreground</key>
           <string>#FFFFFF</string>
         </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Inline Ruby Html</string>
+        <key>scope</key>
+        <string>source.ruby.rails.embedded.html</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#000000</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Ruby Html</string>
+        <key>scope</key>
+        <string>text.html.ruby</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#101010</string>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Ruby Number</string>
+        <key>scope</key>
+        <string>constant.numeric.ruby</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CCFF33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Ruby source</string>
+        <key>scope</key>
+        <string>source.ruby</string>
+        <key>settings</key>
+        <dict/>
       </dict>
       <dict>
         <key>name</key>
@@ -43,6 +86,8 @@
         <string>source</string>
         <key>settings</key>
         <dict>
+          <key>background</key>
+          <string>#000000</string>
           <key>foreground</key>
           <string>#FFFFFF</string>
         </dict>
@@ -66,7 +111,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#3387CC</string>
+          <string>#339999</string>
         </dict>
       </dict>
       <dict>
@@ -79,42 +124,46 @@
           <key>fontStyle</key>
           <string></string>
           <key>foreground</key>
-          <string>#CC7833</string>
+          <string>#FF6600</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Pre-processor Line</string>
         <key>scope</key>
-        <string>meta.preprocessor.c</string>
+        <string>keyword.preprocessor</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string></string>
           <key>foreground</key>
-          <string>#D0D0FF</string>
+          <string>#EDF8F9</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Pre-processor Directive</string>
         <key>scope</key>
-        <string>keyword.control.import</string>
+        <string>keyword.preprocessor directive</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string></string>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Function name</string>
         <key>scope</key>
-        <string>entity.name.function</string>
+        <string>entity.name.function, storage.type.function.js</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string></string>
+          <key>foreground</key>
+          <string>#FFCC00</string>
         </dict>
       </dict>
       <dict>
@@ -136,9 +185,33 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#9B9B9B</string>
+          <string>#070707</string>
+          <key>foreground</key>
+          <string>#772CB7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variable</string>
+        <key>scope</key>
+        <string>variable.other</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>ActiveRecord Function</string>
+        <key>scope</key>
+        <string>support.function.activerecord.rails</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#999966</string>
         </dict>
       </dict>
       <dict>
@@ -149,7 +222,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#66CC33</string>
+          <string>#66FF00</string>
         </dict>
       </dict>
       <dict>
@@ -184,7 +257,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#CCCC33</string>
+          <string>#44B4CC</string>
         </dict>
       </dict>
       <dict>
@@ -211,9 +284,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Type name</string>
+        <string>Class name</string>
         <key>scope</key>
-        <string>entity.name.type</string>
+        <string>entity.name.class, support.class.js</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -239,7 +312,20 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string>underline</string>
+          <string></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Html Meta</string>
+        <key>scope</key>
+        <string>meta.tag.inline.any.html,  meta.tag.block.any.html</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string></string>
+          <key>foreground</key>
+          <string>#FF6600</string>
         </dict>
       </dict>
       <dict>
@@ -250,24 +336,116 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string></string>
+          <string>italic</string>
+          <key>foreground</key>
+          <string>#99CC99</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Support function</string>
+        <string>Other Keywords</string>
         <key>scope</key>
-        <string>support.function</string>
+        <string>keyword.other</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
-          <string>#C83730</string>
+          <string>#DDE93D</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Selector</string>
+        <key>scope</key>
+        <string>
+          meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css
+        </string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FF6600</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Property</string>
+        <key>scope</key>
+        <string>support.type.property-name.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#999966</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Other</string>
+        <key>scope</key>
+        <string>
+          keyword.other.unit.css, constant.other.rgb-value.css, constant.numeric.css
+        </string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Javascript Events</string>
+        <key>scope</key>
+        <string>support.function.event-handler.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Javascript Operators</string>
+        <key>scope</key>
+        <string>keyword.operator.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Javascript Keywords</string>
+        <key>scope</key>
+        <string>keyword.control.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CCCC66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Prototype Objects</string>
+        <key>scope</key>
+        <string>support.class.prototype.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Prototype Methods</string>
+        <key>scope</key>
+        <string>object.property.function.prototype.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FF6600</string>
         </dict>
       </dict>
     </array>
     <key>uuid</key>
-    <string>7D892C2F-8930-4CEF-B414-2E5EAFF94BF7</string>
+    <string>4B7A9AA6-C472-4460-BA48-199E2624956B</string>
   </dict>
 </plist>
