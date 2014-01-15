@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>content</key>
-    <string>[➠] Modified $0.</string>
     <key>name</key>
-    <string>Modified ...</string>
+    <string>Removed...</string>
+    <key>content</key>
+    <string>[✖] Removed $0.</string>
     <key>scope</key>
     <string>text.git-commit, text.hg-editor-*.txt</string>
     <key>tabTrigger</key>
-    <string>modified</string>
+    <string>removed</string>
     <key>uuid</key>
-    <string>FF6AA3B0-5F35-4A2C-93C6-6B5D9897587B</string>
+    <string>2C4DA168-B533-45DE-A596-E11800760D47</string>
   </dict>
 </plist>
