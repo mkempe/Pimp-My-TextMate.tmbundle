@@ -6,8 +6,4 @@ Personal [TextMate](http://macromates.com "TextMate") bundle.
 License
 -------
 
-MIT License
-
-“Pimp My TextMate.tmbundle” is released under the MIT license.
-
-See “COPYING”.
+Pimp My TextMate.tmbundle is released under the MIT License.
